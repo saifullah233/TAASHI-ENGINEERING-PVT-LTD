@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1000" role="img" aria-label="Architectural construction illustration">
+ <defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0.8" y2="1"><stop stop-color="#264a58"/><stop offset=".54" stop-color="#45636b"/><stop offset="1" stop-color="#9b8470"/></linearGradient>
+  <linearGradient id="b" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#c7c4b7"/><stop offset="1" stop-color="#7d8e8b"/></linearGradient>
+  <linearGradient id="front" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#627a7b"/><stop offset="1" stop-color="#2f4b51"/></linearGradient>
+  <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#112a3b" stop-opacity="0"/><stop offset="1" stop-color="#0d2637" stop-opacity=".86"/></linearGradient>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#e2eeed" stroke-opacity=".12" stroke-width=".7"/></pattern>
+  <pattern id="window" width="62" height="66" patternUnits="userSpaceOnUse"><path d="M9 10h42v39H9z" fill="#213d47" stroke="#b1c5c2" stroke-width="1" stroke-opacity=".7"/><path d="M30 10v39M9 29h42" stroke="#8ca49d" stroke-width="1" opacity=".5"/><path d="M12 13h14v14H12z" fill="#adc1b8" opacity=".15"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="58"/></filter>
+ </defs>
+ <rect width="850" height="1000" fill="url(#sky)"/>
+ <circle cx="730" cy="230" r="145" fill="#dba66b" opacity=".31" filter="url(#glow)"/>
+ <circle cx="730" cy="230" r="71" fill="#e3b583" opacity=".25"/>
+ <path d="M0 485 92 468v-73h60v75l65-23v-150h95v160l80-9V339h59v106l73-35V265h80v149l73-22V323h71v79l102-31v388H0Z" fill="#1f4651" opacity=".53"/>
+ <path d="M0 564h91V465h46v94h48V397h62v158h41V454h72v100h61V427h60v128h92V381h86v178h83V453h67v117h101v300H0Z" fill="#254750" opacity=".65"/>
+ <!-- crane -->
+ <g fill="none" stroke="#273d43" stroke-width="6">
+  <path d="M576 120v522M568 120h16M576 120l234 59-234 15-238-15Z"/>
+  <path d="M560 138h34M560 177h34M560 216h34M560 255h34M560 294h34M560 333h34M560 372h34M560 411h34M560 450h34M560 489h34M560 528h34" stroke-width="3"/>
+  <path d="m560 138 34 39-34 39 34 39-34 39 34 39-34 39 34 39-34 39 34 39" stroke-width="2"/>
+  <path d="m580 122 185 54m-187-54 122 60m-119-60 65 64m-70-63-68 59m68-59-155 59m155-59-217 57" stroke-width="2"/>
+  <path d="M743 182v235M730 183v235M730 416h13" stroke-width="2.5"/>
+  <path d="M736 416v29" stroke="#df934b" stroke-width="4"/>
+  <path d="M730 446q6 13 12 0" stroke="#df934b" stroke-width="4"/>
+ </g>
+ <!-- near building: rear structure -->
+ <path d="M68 357 378 296 639 367 329 438Z" fill="#aab7ae"/>
+ <path d="M68 357 329 438v497L68 856Z" fill="url(#b)"/>
+ <path d="M329 438 639 367v518L329 935Z" fill="url(#front)"/>
+ <path d="M95 402 313 467v428L95 825Z" fill="url(#window)" opacity=".89"/>
+ <path d="M342 470 618 404v456L342 909Z" fill="url(#window)" opacity=".63"/>
+ <!-- floors concrete lines -->
+ <g stroke="#d7d3be" stroke-width="10" opacity=".88">
+  <path d="m68 485 261 81 310-72M68 604l261 80 310-69M68 723l261 83 310-70M68 835l261 82 310-69"/>
+ </g>
+ <g stroke="#34464b" stroke-width="4" opacity=".8"><path d="M129 376v520M193 395v519M264 418v518M404 423v499M489 400v500M569 381v501"/></g>
+ <g stroke="#e7dbc7" stroke-width="2" opacity=".48"><path d="M68 357 329 438M329 438 639 367M68 604l261 80 310-69M68 723l261 83 310-70"/></g>
+ <!-- scaffolding foreground -->
+ <g stroke="#b1a48e" stroke-width="4" opacity=".95"><path d="M35 526V951M82 533v422M35 572h90M35 647h90M35 722h90M35 797h90M35 872h90M44 543l80 90-80 90 80 90-80 90M700 438v492M750 440v487M685 487h104M685 556h104M685 625h104M685 694h104M685 763h104M690 487l100 69-100 69 100 69-100 69"/></g>
+ <path d="M0 907q177-36 339 7t511-34v120H0Z" fill="#183541" opacity=".94"/>
+ <rect y="0" width="850" height="1000" fill="url(#shade)"/>
+ <rect width="850" height="1000" fill="url(#grid)" opacity=".32"/>
+ <path d="M50 63h58M50 63v60M798 60h-58M798 60v60M53 940h58M53 940v-60" stroke="#ffffff" opacity=".45" stroke-width="1.5" fill="none"/>
+ <g fill="#e7e7df" font-family="monospace" font-size="14" opacity=".85"><text x="53" y="145">STRUCTURE / 001</text><text x="632" y="935">T / E / 2026</text></g>
+</svg>
